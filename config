@@ -1,0 +1,26 @@
+[global_config]
+  window_state = maximise
+  borderless = True
+  extra_styling = False
+  title_hide_sizetext = True
+  title_font = Sans Bold 14
+[keybindings]
+[profiles]
+  [[default]]
+    background_darkness = 0.59
+    background_type = transparent
+    cursor_color = "#aaaaaa"
+    font = Fira Mono Bold 15
+    foreground_color = "#00ff00"
+    show_titlebar = False
+    palette = "#000000:#cd0000:#00cd00:#cdcd00:#0000cd:#cd00cd:#00cdcd:#faebd7:#404040:#ff0000:#00ff00:#ffff00:#0000ff:#ff00ff:#00ffff:#ffffff"
+    use_system_font = False
+[layouts]
+  [[default]]
+    [[[window0]]]
+      type = Window
+      parent = ""
+    [[[child1]]]
+      type = Terminal
+      parent = window0
+[plugins]
